@@ -1,3 +1,4 @@
+/* eslint @typescript-eslint/no-unused-vars: 0 */
 import React from 'react';
 import { Pagination, Typography } from 'antd';
 import styled from 'styled-components/macro';
@@ -208,6 +209,7 @@ export const SearchResults = ({
                                     of <b>{totalResults}</b> results
                                 </Typography.Text>
                             </LeftControlsContainer>
+                            {/*
                             <SearchMenuContainer>
                                 <SearchExtendedMenu
                                     downloadSearchResults={downloadSearchResults}
@@ -218,6 +220,7 @@ export const SearchResults = ({
                                     totalResults={totalResults}
                                 />
                             </SearchMenuContainer>
+                            */}
                         </PaginationInfoContainer>
                         {isSelectMode && (
                             <StyledTabToolbar>
